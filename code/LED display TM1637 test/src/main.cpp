@@ -13,9 +13,9 @@ int main(){
   
   display.setBrightness(7);
   display.showNumberDec(2137);
-  delay(1000);
-  display.showNumberDec(54);
-  delay(1000);
-  display.showNumberDec(5555);
-  delay(1000);
+  delay(1000);  
+
+  while(1){
+    display.showNumberDec(analogRead(A0));
+  }
 }
