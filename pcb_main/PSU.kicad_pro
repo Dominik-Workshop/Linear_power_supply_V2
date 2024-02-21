@@ -120,6 +120,7 @@
       },
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5,
         1.0,
@@ -395,7 +396,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 400,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -436,6 +437,18 @@
     [
       "973c964c-6cca-4b0c-b06b-ef2339f3a342",
       ""
+    ],
+    [
+      "b535aafb-3b7f-423b-872c-2eb4e15a7099",
+      "main linear regulator"
+    ],
+    [
+      "7d3acbf9-eafd-41bc-9718-6a9045e8d76f",
+      "power"
+    ],
+    [
+      "bdc98422-c2f1-4ab5-b369-ddcd70e3b8fc",
+      "MCU"
     ]
   ],
   "text_variables": {}
