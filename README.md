@@ -1,6 +1,6 @@
 # Linear power supply V2
 
-## Designed in <img align="center" height="100" src="images/logos/kicad_logo.png">  8.0.0
+## Designed in <img align="center" height="80" src="images/logos/kicad_logo.png">  8.0.0
 
 
 
