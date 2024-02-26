@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "logos.preety")(type "KiCad")(uri "E:/projects/Linear_power_supply_V2/pcb/pcb_lib/logos.preety")(options "")(descr ""))
+)
