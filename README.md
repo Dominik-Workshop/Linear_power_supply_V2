@@ -5,8 +5,7 @@
 
 ### Power board
 
-<img align="center" width=43% src="images/renders/power_board_front_render_.png">
-<img align="center" width=40% src="images/renders/power_board_back_render_.png">
+<img align="center" width=40% src="images/renders/power_board_front_render_.png"> <img align="center" width=40% src="images/renders/power_board_back_render_.png">
 
 ### Control board
 ```
