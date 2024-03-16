@@ -16613,6 +16613,16 @@
 		(uuid "5eb5dd06-727f-498c-93e5-ba56c11f7193")
 	)
 	(gr_line
+		(start 60.2 94.9)
+		(end 60.2 93.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61a17b19-c074-44da-9d5e-a2e0ddecda50")
+	)
+	(gr_line
 		(start 85.75 60.25)
 		(end 85.25 60.25)
 		(stroke
@@ -16621,26 +16631,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6414daef-9c1f-4de9-a861-ffabbf7fbb63")
-	)
-	(gr_line
-		(start 62.3 88.1)
-		(end 62.3 93.75)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6975b05b-113f-4b09-9fc2-246ecdf2348a")
-	)
-	(gr_line
-		(start 70.3 88.1)
-		(end 70.3 93.75)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6d695804-64e8-43c4-a82a-aff2eac1f7f6")
 	)
 	(gr_line
 		(start 85.25 71.25)
@@ -16765,6 +16755,16 @@
 		(uuid "bc62fbd0-a2fd-4b9d-9ff7-7db3aa06345e")
 	)
 	(gr_line
+		(start 68.6 93.6)
+		(end 68.6 94.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfe9a28c-2363-4e18-923a-b5070ba29b44")
+	)
+	(gr_line
 		(start 103.5 68.25)
 		(end 104 68.25)
 		(stroke
@@ -16774,16 +16774,25 @@
 		(layer "F.SilkS")
 		(uuid "c341cb55-9364-40f5-baf3-2693d81eaecb")
 	)
-	(gr_rect
-		(start 58.3 88.1)
-		(end 74.3 93.85)
+	(gr_line
+		(start 72.3 93.6)
+		(end 72.3 94.9)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "c731b94a-414b-4d0c-b4d5-d67b790717c6")
+		(uuid "c35bc60a-c80f-4204-b5fa-0548a3a2e49e")
+	)
+	(gr_line
+		(start 64.3 93.6)
+		(end 64.3 94.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4d901a4-2308-47ec-8ec5-750e2d77c369")
 	)
 	(gr_line
 		(start 57 96)
@@ -16846,14 +16855,14 @@
 		(uuid "e9b81517-9d58-4600-a247-f82594dd8e62")
 	)
 	(gr_line
-		(start 66.3 88.1)
-		(end 66.3 93.85)
+		(start 72.3 94.9)
+		(end 60.2 94.9)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "f1de1889-b9be-4847-9da6-3802b3fb17f6")
+		(uuid "ef4e797f-93fb-499e-acdc-1d3b3ac1f67f")
 	)
 	(gr_line
 		(start 85.25 68)
