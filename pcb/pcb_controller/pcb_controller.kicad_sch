@@ -1946,7 +1946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "EARTH"
 			(at 158.75 38.1 0)
 			(effects
 				(font

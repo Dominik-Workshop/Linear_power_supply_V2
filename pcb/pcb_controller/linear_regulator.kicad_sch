@@ -4,7 +4,290 @@
 	(generator_version "8.0")
 	(uuid "b53e0f4d-3a26-4310-999d-ac2ef394199f")
 	(paper "A4")
+	(title_block
+		(title "Main linear regulator")
+		(date "2024-02-29")
+		(rev "V1.0")
+		(company "Dominik Workshop")
+	)
 	(lib_symbols
+		(symbol "Comparator:LM393"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM393_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -281,6 +564,175 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2032,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 82.55) (xy 250.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274c9e2d-d83a-4f2f-82b3-50ddb517bea6")
+	)
+	(wire
+		(pts
 			(xy 201.93 116.84) (xy 201.93 121.92)
 		)
 		(stroke
@@ -2312,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 96.52) (xy 257.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7fce19-9e1c-4bf5-8942-01379acae087")
+	)
+	(wire
+		(pts
 			(xy 111.76 73.66) (xy 118.11 73.66)
 		)
 		(stroke
@@ -2532,6 +3004,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 87.63) (xy 257.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a750ba81-9cff-4b80-8892-9ca8f70d9aea")
+	)
+	(wire
+		(pts
 			(xy 177.8 130.81) (xy 177.8 132.08)
 		)
 		(stroke
@@ -2559,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "ac3dd86e-53e9-4d6c-adc0-7d27bf92c485")
+	)
+	(wire
+		(pts
+			(xy 229.87 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad368136-05e7-4720-bd7b-6f1aadbc3978")
 	)
 	(wire
 		(pts
@@ -2652,6 +3144,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 76.2) (xy 257.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a65c6a-aca7-4ee8-a5d9-e9f61f803f86")
+	)
+	(wire
+		(pts
 			(xy 99.06 27.94) (xy 189.23 27.94)
 		)
 		(stroke
@@ -2699,6 +3201,16 @@
 			(type default)
 		)
 		(uuid "e05c79f4-6281-4cbe-ac46-058f97bff6e0")
+	)
+	(wire
+		(pts
+			(xy 257.81 105.41) (xy 257.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08b30f5-a99f-4e9d-ab8e-4c8ff8ae2ffd")
 	)
 	(wire
 		(pts
@@ -2933,6 +3445,17 @@
 			(justify left bottom)
 		)
 		(uuid "7cc56e18-b43b-4688-b6d5-bd18aaaf61e3")
+	)
+	(label "out_CC_amp"
+		(at 229.87 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b5eb6f6-1747-41e7-ba35-6d3c0cbd7f0b")
 	)
 	(label "Vout_div"
 		(at 193.04 121.92 0)
@@ -3770,6 +4293,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 257.81 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31107a34-8023-4551-9143-5852673b9731")
+		(property "Reference" "R325"
+			(at 255.27 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 260.35 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 259.588 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f456f1e-8f3c-4ce3-b8a3-d5623ca4a18d")
+		)
+		(pin "2"
+			(uuid "d9396e7e-182f-478b-8840-7ca98c06acc8")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "R325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 257.81 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3237fb19-07a4-486c-9503-125de222455b")
+		(property "Reference" "D300"
+			(at 260.35 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RED"
+			(at 260.35 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f1573c1-5402-4da3-b60a-b472d8f70a27")
+		)
+		(pin "1"
+			(uuid "7b0bd710-467a-457c-8860-2b87a860d4de")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "D300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 63.5 0)
 		(unit 1)
@@ -3919,6 +4578,71 @@
 			(project "pcb_controller"
 				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
 					(reference "Q400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "391f5e5c-b1d0-429b-b635-c291b96bdda6")
+		(property "Reference" "#PWR0336"
+			(at 257.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7b30ab0-2b6f-479e-bc25-e6aad2451f5c")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -4829,6 +5553,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM393")
+		(at 245.11 43.18 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bede704-1739-4bf9-9ac4-71af0c371d1f")
+		(property "Reference" "U305"
+			(at 243.84 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LM393"
+			(at 243.84 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd52f8ab-caa5-45a8-b6eb-87ac57d3f78c")
+		)
+		(pin "3"
+			(uuid "d2b73cf5-2945-4c5d-9cb1-5153cf116efa")
+		)
+		(pin "5"
+			(uuid "9c8fdbbb-e264-4411-9b7e-b63ab675896c")
+		)
+		(pin "7"
+			(uuid "1b530bcf-8b5b-4b43-aa9b-85643c758356")
+		)
+		(pin "6"
+			(uuid "a7ac1daf-edfb-4f40-84f6-39cdee24b470")
+		)
+		(pin "1"
+			(uuid "3b718b1b-de26-44c6-82cf-a8b8c4c925ea")
+		)
+		(pin "8"
+			(uuid "c20e422b-75cb-458e-a777-3bc93b6d91e5")
+		)
+		(pin "4"
+			(uuid "780c308a-1f84-428b-8957-39c00c0cc462")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "U305")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 140.97 100.33 90)
 		(unit 1)
@@ -4967,6 +5781,73 @@
 			(project "pcb_controller"
 				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
 					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "957eb6d7-921d-443c-a472-ff537828d1e3")
+		(property "Reference" "R324"
+			(at 245.11 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 245.11 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 245.11 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7077dd15-11f7-486e-92ec-d052001b2320")
+		)
+		(pin "2"
+			(uuid "651f379c-c082-4af7-b60d-f6da2f7e056d")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "R324")
 					(unit 1)
 				)
 			)
@@ -5330,6 +6211,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 257.81 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c554df32-ac55-41b4-a26f-afe2443b1cec")
+		(property "Reference" "#PWR0337"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3ed2eb0-aa5d-4eeb-8968-def15debed86")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "#PWR0337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148WS")
 		(at 168.91 127 90)
 		(unit 1)
@@ -5403,6 +6351,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC557")
+		(at 255.27 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04c5f91-b59c-47be-b795-c9d40c029ea3")
+		(property "Reference" "Q306"
+			(at 260.35 83.8201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S9015"
+			(at 260.35 81.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.35 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809211021_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--S9015_C2149.pdf"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP, V_CEO -45V, I_C -100mA"
+			(at 255.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bbae30-ef30-4c1e-8eb3-4c693dbc41f9")
+		)
+		(pin "2"
+			(uuid "74ea5340-40ad-4366-9c88-9eabc3fbcf1c")
+		)
+		(pin "3"
+			(uuid "0284afb5-73dd-4375-8379-9ccddc911f28")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "Q306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 143.51 0)
 		(unit 1)
@@ -5464,6 +6488,91 @@
 			(project "pcb_controller"
 				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
 					(reference "#PWR0611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 245.11 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3c7294b-3b7c-4f0e-b67c-004a35492c7e")
+		(property "Reference" "U305"
+			(at 247.015 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 247.015 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd52f8ab-caa5-45a8-b6eb-87ac57d3f78c")
+		)
+		(pin "3"
+			(uuid "d2b73cf5-2945-4c5d-9cb1-5153cf116efa")
+		)
+		(pin "5"
+			(uuid "9c8fdbbb-e264-4411-9b7e-b63ab675896c")
+		)
+		(pin "7"
+			(uuid "1b530bcf-8b5b-4b43-aa9b-85643c758356")
+		)
+		(pin "6"
+			(uuid "a7ac1daf-edfb-4f40-84f6-39cdee24b470")
+		)
+		(pin "1"
+			(uuid "3b718b1b-de26-44c6-82cf-a8b8c4c925ea")
+		)
+		(pin "8"
+			(uuid "c20e422b-75cb-458e-a777-3bc93b6d91e5")
+		)
+		(pin "4"
+			(uuid "780c308a-1f84-428b-8957-39c00c0cc462")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "U305")
 					(unit 1)
 				)
 			)
@@ -5650,6 +6759,91 @@
 				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
 					(reference "R403")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 262.89 43.18 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ead1fe9c-51b8-4dfc-b4eb-14693569b4e2")
+		(property "Reference" "U305"
+			(at 264.795 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 265.43 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 262.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd52f8ab-caa5-45a8-b6eb-87ac57d3f78c")
+		)
+		(pin "3"
+			(uuid "d2b73cf5-2945-4c5d-9cb1-5153cf116efa")
+		)
+		(pin "5"
+			(uuid "9c8fdbbb-e264-4411-9b7e-b63ab675896c")
+		)
+		(pin "7"
+			(uuid "1b530bcf-8b5b-4b43-aa9b-85643c758356")
+		)
+		(pin "6"
+			(uuid "a7ac1daf-edfb-4f40-84f6-39cdee24b470")
+		)
+		(pin "1"
+			(uuid "3b718b1b-de26-44c6-82cf-a8b8c4c925ea")
+		)
+		(pin "8"
+			(uuid "c20e422b-75cb-458e-a777-3bc93b6d91e5")
+		)
+		(pin "4"
+			(uuid "780c308a-1f84-428b-8957-39c00c0cc462")
+		)
+		(instances
+			(project "pcb_controller"
+				(path "/98e22fa9-ac45-4e65-95cb-3a37e30eb1fa/1f7f5dc9-198e-4266-a725-da11182d9e2c"
+					(reference "U305")
+					(unit 2)
 				)
 			)
 		)
