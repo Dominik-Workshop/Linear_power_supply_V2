@@ -922,7 +922,7 @@
 				)
 			)
 		)
-		(property "Value" "220m"
+		(property "Value" "0R2"
 			(at 130.81 71.12 90)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Value" "220m"
+		(property "Value" "0R2"
 			(at 130.81 52.07 90)
 			(effects
 				(font
