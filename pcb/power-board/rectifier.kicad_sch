@@ -5,9 +5,9 @@
 	(uuid "c7604ee7-f131-459e-80b9-0814e4985c0a")
 	(paper "A5")
 	(title_block
-		(title "Rectifier")
-		(date "2024-02-24")
-		(rev "V1.0")
+		(title "DW3005T-power-board")
+		(date "2024-02-26")
+		(rev "1.0.0")
 		(company "Dominik Workshop")
 	)
 	(lib_symbols
@@ -1474,19 +1474,18 @@
 		)
 		(uuid 5d73ed17-a42f-48bc-9458-f625bc48a0e4)
 	)
-	(text "30V 5A Linear Power Supply"
+	(text "Rectifier"
 		(exclude_from_sim no)
-		(at 95.885 114.3 0)
+		(at 57.785 46.99 0)
 		(effects
 			(font
-				(size 4 4)
-				(thickness 0.8)
+				(size 2.54 2.54)
+				(thickness 0.508)
 				(bold yes)
-				(italic yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "e82a4897-fbc2-45ea-90f5-b3d0dd05be44")
+		(uuid "45cd9684-8972-4d2c-9ed6-3e1f5aa777b0")
 	)
 	(hierarchical_label "-DC"
 		(shape output)

@@ -5,9 +5,9 @@
 	(uuid "9c4f660d-de2b-4d3e-9f6c-94e6208aeac0")
 	(paper "A5")
 	(title_block
-		(title "Tab selector")
-		(date "2024-02-24")
-		(rev "V1.0")
+		(title "DW3005T-power-board")
+		(date "2024-02-26")
+		(rev "1.0.0")
 		(company "Dominik Workshop")
 	)
 	(lib_symbols
@@ -776,19 +776,18 @@
 		)
 		(uuid e8cefb7d-12f3-4f1c-b174-fab6fb6e74a6)
 	)
-	(text "30V 5A Linear Power Supply"
+	(text "Tab selector"
 		(exclude_from_sim no)
-		(at 95.885 114.3 0)
+		(at 58.42 41.91 0)
 		(effects
 			(font
-				(size 4 4)
-				(thickness 0.8)
+				(size 2.54 2.54)
+				(thickness 0.508)
 				(bold yes)
-				(italic yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "395488cc-2922-474b-9708-21d2ce3c4bb9")
+		(uuid "10c98518-504b-43c7-b36f-4540250caf27")
 	)
 	(hierarchical_label "20V_AC"
 		(shape input)
@@ -802,7 +801,7 @@
 		)
 		(uuid "00a3d6f0-79a5-4a4e-be7b-62a66204a40c")
 	)
-	(hierarchical_label "Relay_VCC"
+	(hierarchical_label "relay_VCC"
 		(shape passive)
 		(at 72.39 48.26 180)
 		(fields_autoplaced yes)
@@ -838,7 +837,7 @@
 		)
 		(uuid "4ec14bda-c3b1-47e8-b639-42c0c3f2cd32")
 	)
-	(hierarchical_label "Relay2"
+	(hierarchical_label "relay_2"
 		(shape input)
 		(at 72.39 82.55 180)
 		(fields_autoplaced yes)
@@ -862,7 +861,7 @@
 		)
 		(uuid "c5dd561a-f409-479a-ad25-8cba5f145f1c")
 	)
-	(hierarchical_label "Relay1"
+	(hierarchical_label "relay_1"
 		(shape input)
 		(at 72.39 74.93 180)
 		(fields_autoplaced yes)
@@ -884,7 +883,7 @@
 		(dnp no)
 		(uuid "2ae92cb9-7512-4dd5-9c5a-ca435aa1944d")
 		(property "Reference" "D21"
-			(at 88.9 50.8 90)
+			(at 89.535 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +892,7 @@
 			)
 		)
 		(property "Value" "BYG22B"
-			(at 88.9 53.34 90)
+			(at 89.535 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +979,7 @@
 		(dnp no)
 		(uuid "49d8c678-e530-49d0-8ce8-b6d22b441fd4")
 		(property "Reference" "D20"
-			(at 77.47 50.8 90)
+			(at 78.105 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +988,7 @@
 			)
 		)
 		(property "Value" "BYG22B"
-			(at 77.47 53.34 90)
+			(at 78.105 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1151,7 @@
 		(dnp no)
 		(uuid "c5ab55be-af4b-438c-a753-f44684866909")
 		(property "Reference" "K21"
-			(at 100.33 58.42 90)
+			(at 96.52 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1159,7 @@
 			)
 		)
 		(property "Value" "FINDER-40.41"
-			(at 97.79 81.28 90)
+			(at 96.52 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,9 +5,9 @@
 	(uuid "1cf76797-12b7-42c4-a455-f8178a8660df")
 	(paper "A5")
 	(title_block
-		(title "Tab selector, rectifier, series pass transistors")
-		(date "2024-02-24")
-		(rev "V1.0")
+		(title "DW3005T-power-board")
+		(date "2024-02-26")
+		(rev "1.0.0")
 		(company "Dominik Workshop")
 	)
 	(lib_symbols
@@ -350,17 +350,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 113.03 67.31)
+			(xy 119.38 60.96) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "049da348-86bf-4ddf-af8a-14920f05f9bf")
+		(uuid "05aa75b9-3bee-4572-bf86-fa1070d4fb3f")
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 120.65 54.61)
+			(xy 129.54 55.88) (xy 125.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,27 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 90.17 67.31)
+			(xy 88.9 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185a5ab3-a221-471f-9861-7ca176ec853e")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1d8607-019a-42cb-8688-0364f84e058f")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 59.69 69.85)
+			(xy 53.34 71.12) (xy 60.96 71.12)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +410,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 59.69 54.61)
+			(xy 160.02 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcc7a2a-5344-403f-9cfc-929afbdb9abf")
+	)
+	(wire
+		(pts
+			(xy 53.34 55.88) (xy 60.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -400,17 +430,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 59.69) (xy 125.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41586841-6973-4405-ac03-e5ff948d1ea7")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 120.65 43.18)
+			(xy 125.73 55.88) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
@@ -420,27 +440,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 95.25 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac45e3b-dced-4548-83d3-7484a431b4c0")
-	)
-	(wire
-		(pts
-			(xy 148.59 59.69) (xy 160.02 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4d5ed6-90e8-4f13-9d12-c9ed29bf9a30")
-	)
-	(wire
-		(pts
-			(xy 49.53 72.39) (xy 59.69 72.39)
+			(xy 53.34 73.66) (xy 60.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -450,27 +450,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 85.09 59.69)
+			(xy 91.44 60.96) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8783fad1-10c1-47c2-bdb9-399a4cd41595")
+		(uuid "92c6e9f8-c1c1-45a7-b8d6-5c5b13cfdeb8")
 	)
 	(wire
 		(pts
-			(xy 81.28 69.85) (xy 85.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f22b57a-2145-4582-981c-33c5e382ede8")
-	)
-	(wire
-		(pts
-			(xy 54.61 81.28) (xy 54.61 77.47)
+			(xy 58.42 78.74) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +470,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 54.61 81.28)
+			(xy 53.34 58.42) (xy 60.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa051b95-b6e0-4a3c-ab3f-614acd3b65d3")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +490,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 156.21 67.31)
+			(xy 167.64 63.5) (xy 167.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +500,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 53.34 43.18)
+			(xy 125.73 45.72) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +510,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 52.07) (xy 59.69 52.07)
+			(xy 53.34 53.34) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 77.47) (xy 49.53 77.47)
+			(xy 58.42 78.74) (xy 53.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +530,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 53.34 49.53)
+			(xy 58.42 45.72) (xy 58.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -540,17 +540,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 59.69 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24ecd02-63d9-4362-9b8a-86a5a2ce73ec")
-	)
-	(wire
-		(pts
-			(xy 49.53 74.93) (xy 59.69 74.93)
+			(xy 53.34 76.2) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +550,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 90.17 81.28)
+			(xy 96.52 73.66) (xy 96.52 83.82)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +560,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 49.53 49.53)
+			(xy 99.06 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7965ba0-03b5-4349-b85b-d7d373c2ebf0")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +580,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 156.21 62.23)
+			(xy 170.18 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
@@ -588,23 +588,9 @@
 		)
 		(uuid "dca117ac-c09c-402b-9b7b-f84e57129cc6")
 	)
-	(text "30V 5A Linear Power Supply"
-		(exclude_from_sim no)
-		(at 95.885 114.3 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9170c5bf-0e20-4d1e-93dc-a47f9b45c4bf")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 165.1 62.23 0)
+		(at 175.26 63.5 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -613,7 +599,7 @@
 		(dnp no)
 		(uuid "37148c85-1fac-4e77-a36a-cc1b337fd268")
 		(property "Reference" "J12"
-			(at 163.195 57.15 0)
+			(at 173.355 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +608,7 @@
 			)
 		)
 		(property "Value" "XT30"
-			(at 162.56 64.77 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +617,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 165.1 62.23 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 62.23 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 62.23 0)
+			(at 175.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +660,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 44.45 72.39 0)
+		(at 48.26 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -683,7 +669,7 @@
 		(dnp no)
 		(uuid "7c9bdde4-6cc3-4d17-bad4-88483d098ccc")
 		(property "Reference" "J11"
-			(at 46.355 67.31 0)
+			(at 50.165 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +678,7 @@
 			)
 		)
 		(property "Value" "JST_B4P-VH "
-			(at 50.8 80.01 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +687,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B4P-VH_1x04_P3.96mm_Vertical"
-			(at 44.45 72.39 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 72.39 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 72.39 0)
+			(at 48.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,7 +736,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 44.45 54.61 180)
+		(at 48.26 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -758,7 +744,7 @@
 		(dnp no)
 		(uuid "b5062262-05eb-469d-a35b-01c892718f1f")
 		(property "Reference" "J10"
-			(at 44.45 46.99 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +752,7 @@
 			)
 		)
 		(property "Value" "JST_B4B-XH-A"
-			(at 44.45 59.69 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +760,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 44.45 54.61 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 54.61 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 54.61 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,8 +808,8 @@
 		)
 	)
 	(sheet
-		(at 59.69 49.53)
-		(size 21.59 27.94)
+		(at 60.96 50.8)
+		(size 27.94 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -834,7 +820,7 @@
 		)
 		(uuid "8e2907d6-55b6-444c-b8e6-231d4539a803")
 		(property "Sheetname" "Tab selector"
-			(at 59.69 48.8184 0)
+			(at 60.96 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,17 +829,16 @@
 			)
 		)
 		(property "Sheetfile" "tab_selector.kicad_sch"
-			(at 59.69 78.0546 0)
+			(at 60.96 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "out_AC" output
-			(at 81.28 69.85 0)
+			(at 88.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,28 +847,8 @@
 			)
 			(uuid "b496ab7d-77ae-4296-96b7-7af765669813")
 		)
-		(pin "Relay1" input
-			(at 59.69 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "088c51b5-34d5-4575-be38-f54210babbf2")
-		)
-		(pin "Relay2" input
-			(at 59.69 54.61 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f057d6ec-4304-4ab7-9f71-07b0b15dba72")
-		)
 		(pin "20V_AC" input
-			(at 59.69 72.39 180)
+			(at 60.96 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +858,7 @@
 			(uuid "cea6a7d1-bc83-49a5-81e7-1ffb4654fe07")
 		)
 		(pin "10V_AC" input
-			(at 59.69 74.93 180)
+			(at 60.96 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +868,7 @@
 			(uuid "a038b455-bfd0-40bd-aff6-86381ae2efbd")
 		)
 		(pin "30V_AC" input
-			(at 59.69 69.85 180)
+			(at 60.96 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,15 +877,35 @@
 			)
 			(uuid "9d5d8b85-e9e4-40ce-a69a-4be041176ffa")
 		)
-		(pin "Relay_VCC" passive
-			(at 59.69 52.07 180)
+		(pin "relay_VCC" passive
+			(at 60.96 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "46470d5c-64dc-43d2-b4f8-671052dc7f71")
+			(uuid "0b327aec-812c-4ea3-8395-56cc864bf122")
+		)
+		(pin "relay_1" input
+			(at 60.96 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7258feb7-ce6b-4c9a-be42-9c77a2530258")
+		)
+		(pin "relay_2" input
+			(at 60.96 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5363f006-39de-489c-9f08-fa3d141a72f9")
 		)
 		(instances
 			(project "pcb_power"
@@ -931,9 +916,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 49.53)
-		(size 17.78 27.94)
-		(fields_autoplaced yes)
+		(at 99.06 50.8)
+		(size 20.32 27.94)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -943,7 +927,7 @@
 		)
 		(uuid "91dfe9ec-8985-48db-9218-c71bb67e0778")
 		(property "Sheetname" "Rectifier"
-			(at 95.25 48.8184 0)
+			(at 99.06 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,17 +936,16 @@
 			)
 		)
 		(property "Sheetfile" "rectifier.kicad_sch"
-			(at 95.25 78.0546 0)
+			(at 98.425 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "AC1" input
-			(at 95.25 67.31 180)
+			(at 99.06 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +955,7 @@
 			(uuid "7157cb9a-5540-477d-b839-7b2e1049e44c")
 		)
 		(pin "AC2" input
-			(at 95.25 59.69 180)
+			(at 99.06 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +965,7 @@
 			(uuid "23deb18c-6c95-4d00-9951-9a8f69d929cd")
 		)
 		(pin "+DC" output
-			(at 113.03 59.69 0)
+			(at 119.38 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +975,7 @@
 			(uuid "b240400b-046d-48a4-a3cc-f2ab6f3fe6b8")
 		)
 		(pin "-DC" output
-			(at 113.03 67.31 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,9 +993,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 49.53)
-		(size 22.86 15.24)
-		(fields_autoplaced yes)
+		(at 129.54 50.8)
+		(size 30.48 13.97)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1021,8 +1003,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "da94d9f4-e44b-48a6-8c46-b93d05abd5e3")
-		(property "Sheetname" "Power_transistors"
-			(at 125.73 48.8184 0)
+		(property "Sheetname" "Series pass transistors"
+			(at 129.54 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,18 +1012,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_transistors.kicad_sch"
-			(at 125.73 65.3546 0)
+		(property "Sheetfile" "series_pass_transistors.kicad_sch"
+			(at 127 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "collector" input
-			(at 125.73 59.69 180)
+			(at 129.54 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1032,7 @@
 			(uuid "e86cfd47-84c5-4e19-94e2-cfba6697578a")
 		)
 		(pin "base" input
-			(at 125.73 54.61 180)
+			(at 129.54 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1042,7 @@
 			(uuid "5e90a867-1132-41c4-8841-0725e3c98fa4")
 		)
 		(pin "emitter" output
-			(at 148.59 59.69 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

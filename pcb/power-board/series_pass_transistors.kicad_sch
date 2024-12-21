@@ -5,9 +5,9 @@
 	(uuid "eb31b03d-ea62-495f-bbf8-66efcf36f6d7")
 	(paper "A5")
 	(title_block
-		(title "Series pass transistors")
-		(date "2024-02-24")
-		(rev "V1.0")
+		(title "DW3005T-power-board")
+		(date "2024-02-26")
+		(rev "1.0.0")
 		(company "Dominik Workshop")
 	)
 	(lib_symbols
@@ -811,19 +811,18 @@
 		)
 		(uuid 94471890-38f6-443d-b7dc-70b71abaa4c7)
 	)
-	(text "30V 5A Linear Power Supply"
+	(text "Series pass transistors"
 		(exclude_from_sim no)
-		(at 95.885 114.3 0)
+		(at 67.31 41.91 0)
 		(effects
 			(font
-				(size 4 4)
-				(thickness 0.8)
+				(size 2.54 2.54)
+				(thickness 0.508)
 				(bold yes)
-				(italic yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "689730ea-32da-4c5e-ba69-28d5283db680")
+		(uuid "b2149e9e-2c32-43c7-8601-3aa494348090")
 	)
 	(label "pwr_e2"
 		(at 119.38 68.58 0)
