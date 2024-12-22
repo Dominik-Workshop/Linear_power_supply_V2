@@ -18,8 +18,11 @@ This is the second iteration of my linear power supply project [available on Git
 ### PCBs:
 - Power board
 
-> [!WARNING]  
-> WORK IN PROGRESS
+<div align="center">
+  <img align="center" width="70%" src="img/renders/power-board-top.png">
+</div>
+
+&nbsp;
 
 - Control board
 > [!WARNING]  
