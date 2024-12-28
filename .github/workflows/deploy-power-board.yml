@@ -1,0 +1,136 @@
+name: KiCad CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      [master, main]
+  pull_request:
+    branches:
+      [master, main]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-power-board:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./pcb/power-board/
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Find project, schematic, and PCB files
+        id: find_files
+        run: |
+          project_file=$(find . -type f -name "*.kicad_pro" | head -n 1)
+          if [ -z "$project_file" ]; then exit 1; fi
+          base_name=$(basename "$project_file" .kicad_pro)
+          schematic_file=$(dirname "$project_file")/${base_name}.kicad_sch
+          pcb_file=$(dirname "$project_file")/${base_name}.kicad_pcb
+          if [ ! -f "$schematic_file" ] || [ ! -f "$pcb_file" ]; then exit 1; fi
+
+          echo "base_name=$base_name"
+          echo "schematic_file=$schematic_file"
+          echo "pcb_file=$pcb_file"
+
+          echo "base_name=$base_name" >> $GITHUB_ENV
+          echo "schematic_file=$schematic_file" >> $GITHUB_ENV
+          echo "pcb_file=$pcb_file" >> $GITHUB_ENV
+
+      - name: Install KiCad V8.0.0
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
+          sudo apt update
+          sudo apt install -y kicad
+
+      - name: Generate schematic PDF
+        run: |
+          mkdir -p doc
+          kicad-cli sch export pdf --output "doc/${{ env.base_name }}-schematic.pdf" ${{ env.schematic_file }}
+
+      - name: Generate Gerber files
+        run: |
+          mkdir -p fab
+          kicad-cli pcb export gerbers --no-protel-ext -o fab/ "${{ env.pcb_file }}"
+          kicad-cli pcb export drill --format gerber --excellon-separate-th -o fab/ "${{ env.pcb_file }}"
+
+      - name: List Generated Files
+        run: |
+          echo "Contents of doc/:"
+          ls -l doc/
+          echo "Contents of fab/:"
+          ls -l fab/
+
+      - name: Install dependencies (gerbv, inkscape, python3.11, pipx)
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            gerbv \
+            inkscape \
+            python3.11 \
+            python3.11-venv \
+            python3.11-dev \
+            python3-pip \
+            curl
+          
+          # Install pipx for Python package isolation
+          python3.11 -m pip install --upgrade pip
+          python3.11 -m pip install pipx
+          python3.11 -m pipx ensurepath
+
+      - name: Install gerber2blend
+        run: |
+          # Using pipx to install gerber2blend in an isolated environment
+          python3.11 -m pipx install git+https://github.com/antmicro/gerber2blend.git
+
+      - name: Generate .blend file and move to 3d-models
+        run: |
+          # Call gerber2blend to generate the .blend file
+          gerber2blend
+          
+          # Move the generated .blend file to the root directory under 3d-models/
+          mkdir -p ../../3d-models
+          mv fab/*.blend ../../3d-models/
+
+      - name: Regenerate drill file for manufacturing
+        run: |
+          # Regenerate the drill file after generating the blend file
+          kicad-cli pcb export drill -o fab/ "${{ env.pcb_file }}"
+
+      - name: Configure Git user
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit and push the generated files
+        run: |
+          # Add the schematic PDF
+          git add "doc/${{ env.base_name }}-schematic.pdf"
+
+          # Add the Gerber files based on patterns
+          git add fab/*_Cu.gbr
+          git add fab/*_Paste.gbr
+          git add fab/*_Silkscreen.gbr
+          git add fab/*_Mask.gbr
+          git add fab/*Edge_Cuts.gbr
+          git add fab/*PTH-drl.gbr
+          git add fab/*.drl
+
+          # Add the .blend file
+          git add ../../3d-models/*.blend
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # Commit if the files were added
+          git commit -m "Add generated schematic PDF, necessary Gerber layers, and 3D model"
+
+          # Push the commit
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
