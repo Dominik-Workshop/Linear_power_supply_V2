@@ -1596,7 +1596,7 @@
 			(uuid "1c34bac6-f645-4014-9ad9-eaf57b341557")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "C30")
 					(unit 1)
@@ -1686,7 +1686,7 @@
 			(uuid "ebd09288-87e3-4e30-bf9d-b4c00c2261db")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "D33")
 					(unit 1)
@@ -1755,7 +1755,7 @@
 			(uuid "bede233f-cd4e-48c9-bb8a-5b6970e96e79")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "C31")
 					(unit 1)
@@ -1846,7 +1846,7 @@
 			(uuid "fe0afa2c-2f40-4d5b-900c-2d361f9b41aa")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "D32")
 					(unit 1)
@@ -1938,7 +1938,7 @@
 			(uuid "013b16cd-beba-4073-a90e-66930bc490e8")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "D31")
 					(unit 1)
@@ -2030,7 +2030,7 @@
 			(uuid "6ca936de-1c55-4db9-adec-d07f37a589ae")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/91dfe9ec-8985-48db-9218-c71bb67e0778"
 					(reference "D30")
 					(unit 1)

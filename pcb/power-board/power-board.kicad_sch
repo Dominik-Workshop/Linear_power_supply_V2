@@ -650,7 +650,7 @@
 			(uuid "b69fa559-682e-48c4-9093-30fe7c92773d")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(reference "J12")
 					(unit 1)
@@ -726,7 +726,7 @@
 			(uuid "3632a316-f1be-4703-a66c-1f21e9994703")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(reference "J11")
 					(unit 1)
@@ -799,7 +799,7 @@
 			(uuid "f9e9f1bf-0e2f-4adf-9214-eb2129078d2c")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(reference "J10")
 					(unit 1)
@@ -828,7 +828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "tab_selector.kicad_sch"
+		(property "Sheetfile" "tab-selector.kicad_sch"
 			(at 60.96 79.3246 0)
 			(effects
 				(font
@@ -908,7 +908,7 @@
 			(uuid "5363f006-39de-489c-9f08-fa3d141a72f9")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(page "2")
 				)
@@ -985,7 +985,7 @@
 			(uuid "197b5040-e8e9-4221-8fad-4b28e1785876")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(page "3")
 				)
@@ -1012,7 +1012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "series_pass_transistors.kicad_sch"
+		(property "Sheetfile" "series-pass-transistors.kicad_sch"
 			(at 127 65.405 0)
 			(effects
 				(font
@@ -1052,7 +1052,7 @@
 			(uuid "51c5e01f-b7a2-4dbc-87e3-e2e525af26cc")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df"
 					(page "4")
 				)

@@ -961,7 +961,7 @@
 			(uuid "c8844949-edd0-4bfa-9358-2f9c728ad406")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/8e2907d6-55b6-444c-b8e6-231d4539a803"
 					(reference "D21")
 					(unit 1)
@@ -1057,7 +1057,7 @@
 			(uuid "0a924e29-8db1-4ee3-9270-f018640ff174")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/8e2907d6-55b6-444c-b8e6-231d4539a803"
 					(reference "D20")
 					(unit 1)
@@ -1133,7 +1133,7 @@
 			(uuid "93ca8ef6-c468-481e-9511-9169eeea6511")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/8e2907d6-55b6-444c-b8e6-231d4539a803"
 					(reference "K20")
 					(unit 1)
@@ -1209,7 +1209,7 @@
 			(uuid "c6c67536-029e-41e9-aaf6-6443af1515c0")
 		)
 		(instances
-			(project "pcb_power"
+			(project "power-board"
 				(path "/1cf76797-12b7-42c4-a455-f8178a8660df/8e2907d6-55b6-444c-b8e6-231d4539a803"
 					(reference "K21")
 					(unit 1)
